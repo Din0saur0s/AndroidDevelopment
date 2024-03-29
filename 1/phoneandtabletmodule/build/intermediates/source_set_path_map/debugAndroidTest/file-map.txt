@@ -1,0 +1,6 @@
+com.mirea.kosterevadv.phoneandtabletmodule.test.phoneandtabletmodule-annotation-experimental-1.3.0-0 C:\Users\Admin\.gradle\caches\transforms-3\075bf41ce814d4260f02e042700ce999\transformed\annotation-experimental-1.3.0\res
+com.mirea.kosterevadv.phoneandtabletmodule.test.phoneandtabletmodule-core-1.5.0-1 C:\Users\Admin\.gradle\caches\transforms-3\30568b380fcbd6c472dec8793871322c\transformed\core-1.5.0\res
+com.mirea.kosterevadv.phoneandtabletmodule.test.phoneandtabletmodule-androidTest-2 D:\Projects\AndroidStudio\phoneandtabletmodule\build\generated\res\resValues\androidTest\debug
+com.mirea.kosterevadv.phoneandtabletmodule.test.phoneandtabletmodule-mergeDebugAndroidTestResources-3 D:\Projects\AndroidStudio\phoneandtabletmodule\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.mirea.kosterevadv.phoneandtabletmodule.test.phoneandtabletmodule-mergeDebugAndroidTestResources-4 D:\Projects\AndroidStudio\phoneandtabletmodule\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.mirea.kosterevadv.phoneandtabletmodule.test.phoneandtabletmodule-merged_res-5 D:\Projects\AndroidStudio\phoneandtabletmodule\build\intermediates\merged_res\debugAndroidTest
