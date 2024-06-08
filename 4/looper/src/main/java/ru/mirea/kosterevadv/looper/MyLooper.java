@@ -6,7 +6,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
-public class Looper extends Thread{
+public class MyLooper extends Thread{
     public Handler mHandler;
     private Handler mainHandler;
     public MyLooper(Handler mainThreadHandler) {
@@ -17,19 +17,14 @@ public class Looper extends Thread{
         Looper.prepare();
         mHandler = new Handler(Looper.myLooper()) {
             public void handleMessage(Message msg) {
-                //String data = msg.getData().getString("KEY");
-                //Log.d("MyLooper get message: ", data);
-                //int count = data.length();
-
-                int v = msg.getData().getInt("v");
-                String rab = msg.getData().getString("rab");
-                Log.d("MyLooper get age: %d", String.valueOf(v));
-                Log.d("MyLooper get work: %s", rab);
+                int age = msg.getData().getInt("age");
+                String work = msg.getData().getString("work");
+                Log.d("MyLooper get age: %d", String.valueOf(age));
+                Log.d("MyLooper get work: %s", work);
 
                 Message message = new Message();
                 Bundle bundle = new Bundle();
-                //bundle.putString("result", String.format("The number of letters in the word %s is %d ",data,count));
-                bundle.putString("result", String.format("Age = %d Work = %s", v, rab));
+                bundle.putString("result", String.format("My age is %d, my work is %s", age, work));
                 message.setData(bundle);
                 // Send the message back to main thread message queue use main thread message Handler.
                 mainHandler.sendMessage(message);
